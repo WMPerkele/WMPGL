@@ -1,34 +1,51 @@
-﻿Build started 18.8.2016 12:54:58.
-     1>Project "C:\Users\JarnoLaa\Desktop\WMPStuff\SQLCheckers\SQLCheckers.vcxproj" on node 2 (Build target(s)).
+﻿Build started 9/22/2016 7:24:50 PM.
+     1>Project "D:\WMPGL\SQLCheckers\SQLCheckers.vcxproj" on node 4 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Board.cpp BoardTile.cpp MainGame.cpp Men.cpp main.cpp
-         Board.cpp
-     1>c:\users\jarnolaa\desktop\wmpstuff\sqlcheckers\men.h(25): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
-     1>c:\users\jarnolaa\desktop\wmpstuff\sqlcheckers\board.cpp(37): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\jarnolaa\desktop\wmpstuff\sqlcheckers\board.cpp(51): warning C4018: '>' : signed/unsigned mismatch
-     1>c:\users\jarnolaa\desktop\wmpstuff\sqlcheckers\board.cpp(159): warning C4018: '<' : signed/unsigned mismatch
-         Generating Code...
-         Compiling...
-         MainGame.cpp
-     1>c:\users\jarnolaa\desktop\wmpstuff\sqlcheckers\men.h(25): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
-     1>c:\users\jarnolaa\desktop\wmpstuff\sqlcheckers\maingame.cpp(148): warning C4244: 'argument' : conversion from 'Sint32' to 'float', possible loss of data
-         Generating Code...
-         Skipping... (no relevant changes detected)
-         main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Board.cpp BoardTile.cpp main.cpp MainGame.cpp Men.cpp SQLWriter.cpp
+         SQLWriter.cpp
          Men.cpp
+     1>d:\wmpgl\sqlcheckers\men.h(25): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         MainGame.cpp
+     1>d:\wmpgl\sqlcheckers\men.h(25): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\wmpgl\sqlcheckers\maingame.cpp(148): warning C4244: 'argument' : conversion from 'Sint32' to 'float', possible loss of data
+         main.cpp
+     1>d:\wmpgl\sqlcheckers\men.h(25): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
          BoardTile.cpp
+     1>d:\wmpgl\sqlcheckers\men.h(25): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         Board.cpp
+     1>d:\wmpgl\sqlcheckers\men.h(25): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\wmpgl\sqlcheckers\board.cpp(37): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\wmpgl\sqlcheckers\board.cpp(51): warning C4018: '>' : signed/unsigned mismatch
+     1>d:\wmpgl\sqlcheckers\board.cpp(159): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt sqlite3.c
+         sqlite3.c
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\JarnoLaa\Desktop\WMPStuff\Debug\SQLCheckers.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib opengl32.lib glew32.lib WMPEngine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\JarnoLaa\Desktop\WMPStuff\Debug\SQLCheckers.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\JarnoLaa\Desktop\WMPStuff\Debug\SQLCheckers.lib" /MACHINE:X86 Debug\Board.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\WMPGL\Debug\SQLCheckers.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib opengl32.lib glew32.lib WMPEngine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\WMPGL\Debug\SQLCheckers.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\WMPGL\Debug\SQLCheckers.lib" /MACHINE:X86 Debug\Board.obj
          Debug\BoardTile.obj
          Debug\main.obj
          Debug\MainGame.obj
          Debug\Men.obj
          Debug\sqlite3.obj
          Debug\SQLWriter.obj
+         LINK : D:\WMPGL\Debug\SQLCheckers.exe not found or not built by the last incremental link; performing full link
      1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
-         SQLCheckers.vcxproj -> C:\Users\JarnoLaa\Desktop\WMPStuff\Debug\SQLCheckers.exe
-     1>Done Building Project "C:\Users\JarnoLaa\Desktop\WMPStuff\SQLCheckers\SQLCheckers.vcxproj" (Build target(s)).
+     1>WMPEngine.lib(Camera2D.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'WMPEngine.lib(Camera2D.obj)' or at 'D:\WMPGL\Debug\vc120.pdb'; linking object as if no debug info
+     1>WMPEngine.lib(Errors.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'WMPEngine.lib(Errors.obj)' or at 'D:\WMPGL\Debug\vc120.pdb'; linking object as if no debug info
+     1>WMPEngine.lib(GLSLProgram.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'WMPEngine.lib(GLSLProgram.obj)' or at 'D:\WMPGL\Debug\vc120.pdb'; linking object as if no debug info
+     1>WMPEngine.lib(ImageLoader.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'WMPEngine.lib(ImageLoader.obj)' or at 'D:\WMPGL\Debug\vc120.pdb'; linking object as if no debug info
+     1>WMPEngine.lib(InputManager.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'WMPEngine.lib(InputManager.obj)' or at 'D:\WMPGL\Debug\vc120.pdb'; linking object as if no debug info
+     1>WMPEngine.lib(IOManager.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'WMPEngine.lib(IOManager.obj)' or at 'D:\WMPGL\Debug\vc120.pdb'; linking object as if no debug info
+     1>WMPEngine.lib(picoPNG.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'WMPEngine.lib(picoPNG.obj)' or at 'D:\WMPGL\Debug\vc120.pdb'; linking object as if no debug info
+     1>WMPEngine.lib(ResourceManager.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'WMPEngine.lib(ResourceManager.obj)' or at 'D:\WMPGL\Debug\vc120.pdb'; linking object as if no debug info
+     1>WMPEngine.lib(SpriteBatch.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'WMPEngine.lib(SpriteBatch.obj)' or at 'D:\WMPGL\Debug\vc120.pdb'; linking object as if no debug info
+     1>WMPEngine.lib(TextureCache.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'WMPEngine.lib(TextureCache.obj)' or at 'D:\WMPGL\Debug\vc120.pdb'; linking object as if no debug info
+     1>WMPEngine.lib(Timing.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'WMPEngine.lib(Timing.obj)' or at 'D:\WMPGL\Debug\vc120.pdb'; linking object as if no debug info
+     1>WMPEngine.lib(Window.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'WMPEngine.lib(Window.obj)' or at 'D:\WMPGL\Debug\vc120.pdb'; linking object as if no debug info
+     1>WMPEngine.lib(WMPEngine.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'WMPEngine.lib(WMPEngine.obj)' or at 'D:\WMPGL\Debug\vc120.pdb'; linking object as if no debug info
+         SQLCheckers.vcxproj -> D:\WMPGL\Debug\SQLCheckers.exe
+     1>Done Building Project "D:\WMPGL\SQLCheckers\SQLCheckers.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.27
+Time Elapsed 00:00:05.04

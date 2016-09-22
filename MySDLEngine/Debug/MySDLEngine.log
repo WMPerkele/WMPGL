@@ -1,18 +1,26 @@
-﻿Build started 11.4.2016 17.56.33.
-     1>Project "C:\Users\WMP\Desktop\WMPStuff\MySDLEngine\MySDLEngine.vcxproj" on node 2 (Rebuild target(s)).
+﻿Build started 9/22/2016 7:24:55 PM.
+     1>Project "D:\WMPGL\MySDLEngine\MySDLEngine.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Engine.cpp main.cpp
          main.cpp
          Engine.cpp
-     1>c:\users\wmp\desktop\wmpstuff\mysdlengine\engine.cpp(68): warning C4244: 'argument' : conversion from 'Sint32' to 'float', possible loss of data
+     1>d:\wmpgl\mysdlengine\engine.cpp(68): warning C4244: 'argument' : conversion from 'Sint32' to 'float', possible loss of data
          Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\WMP\Desktop\WMPStuff\Debug\MySDLEngine.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib SDL2_image.lib SDL2_ttf.lib SDL2_net.lib opengl32.lib glew32.lib WMPEngine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\WMP\Desktop\WMPStuff\Debug\MySDLEngine.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\WMP\Desktop\WMPStuff\Debug\MySDLEngine.lib" /MACHINE:X86 Debug\Engine.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\WMPGL\Debug\MySDLEngine.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib SDL2_image.lib SDL2_ttf.lib SDL2_net.lib opengl32.lib glew32.lib WMPEngine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\WMPGL\Debug\MySDLEngine.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\WMPGL\Debug\MySDLEngine.lib" /MACHINE:X86 Debug\Engine.obj
          Debug\main.obj
+         LINK : D:\WMPGL\Debug\MySDLEngine.exe not found or not built by the last incremental link; performing full link
      1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
-         MySDLEngine.vcxproj -> C:\Users\WMP\Desktop\WMPStuff\Debug\MySDLEngine.exe
-     1>Done Building Project "C:\Users\WMP\Desktop\WMPStuff\MySDLEngine\MySDLEngine.vcxproj" (Rebuild target(s)).
+     1>WMPEngine.lib(Camera2D.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'WMPEngine.lib(Camera2D.obj)' or at 'D:\WMPGL\Debug\vc120.pdb'; linking object as if no debug info
+     1>WMPEngine.lib(Errors.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'WMPEngine.lib(Errors.obj)' or at 'D:\WMPGL\Debug\vc120.pdb'; linking object as if no debug info
+     1>WMPEngine.lib(GLSLProgram.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'WMPEngine.lib(GLSLProgram.obj)' or at 'D:\WMPGL\Debug\vc120.pdb'; linking object as if no debug info
+     1>WMPEngine.lib(InputManager.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'WMPEngine.lib(InputManager.obj)' or at 'D:\WMPGL\Debug\vc120.pdb'; linking object as if no debug info
+     1>WMPEngine.lib(SpriteBatch.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'WMPEngine.lib(SpriteBatch.obj)' or at 'D:\WMPGL\Debug\vc120.pdb'; linking object as if no debug info
+     1>WMPEngine.lib(Timing.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'WMPEngine.lib(Timing.obj)' or at 'D:\WMPGL\Debug\vc120.pdb'; linking object as if no debug info
+     1>WMPEngine.lib(Window.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'WMPEngine.lib(Window.obj)' or at 'D:\WMPGL\Debug\vc120.pdb'; linking object as if no debug info
+         MySDLEngine.vcxproj -> D:\WMPGL\Debug\MySDLEngine.exe
+     1>Done Building Project "D:\WMPGL\MySDLEngine\MySDLEngine.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.31
+Time Elapsed 00:00:01.21

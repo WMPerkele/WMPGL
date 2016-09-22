@@ -1,37 +1,37 @@
-﻿Build started 11.4.2016 17.56.29.
-     1>Project "C:\Users\WMP\Desktop\WMPStuff\WMPEngine\WMPEngine.vcxproj" on node 2 (Rebuild target(s)).
+﻿Build started 9/22/2016 7:24:50 PM.
+     1>Project "D:\WMPGL\WMPEngine\WMPEngine.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Camera2D.cpp Errors.cpp GLSLProgram.cpp ImageLoader.cpp InputManager.cpp IOManager.cpp picoPNG.cpp ResourceManager.cpp sprite.cpp SpriteBatch.cpp TextureCache.cpp Timing.cpp Window.cpp WMPEngine.cpp
          WMPEngine.cpp
          Window.cpp
          Timing.cpp
-     1>c:\users\wmp\desktop\wmpstuff\wmpengine\timing.cpp(30): warning C4244: 'initializing' : conversion from 'Uint32' to 'float', possible loss of data
-     1>c:\users\wmp\desktop\wmpstuff\wmpengine\timing.cpp(34): warning C4244: 'argument' : conversion from 'float' to 'Uint32', possible loss of data
-     1>c:\users\wmp\desktop\wmpstuff\wmpengine\timing.cpp(50): warning C4244: '=' : conversion from 'GLuint' to 'float', possible loss of data
+     1>d:\wmpgl\wmpengine\timing.cpp(30): warning C4244: 'initializing' : conversion from 'Uint32' to 'float', possible loss of data
+     1>d:\wmpgl\wmpengine\timing.cpp(34): warning C4244: 'argument' : conversion from 'float' to 'Uint32', possible loss of data
+     1>d:\wmpgl\wmpengine\timing.cpp(50): warning C4244: '=' : conversion from 'GLuint' to 'float', possible loss of data
          TextureCache.cpp
          SpriteBatch.cpp
-     1>c:\users\wmp\desktop\wmpstuff\wmpengine\spritebatch.cpp(24): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\wmp\desktop\wmpstuff\wmpengine\spritebatch.cpp(66): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\wmp\desktop\wmpstuff\wmpengine\spritebatch.cpp(93): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\wmpgl\wmpengine\spritebatch.cpp(24): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\wmpgl\wmpengine\spritebatch.cpp(66): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\wmpgl\wmpengine\spritebatch.cpp(93): warning C4018: '<' : signed/unsigned mismatch
          sprite.cpp
-     1>c:\users\wmp\desktop\wmpstuff\wmpengine\sprite.cpp(25): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
-     1>c:\users\wmp\desktop\wmpstuff\wmpengine\sprite.cpp(26): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
-     1>c:\users\wmp\desktop\wmpstuff\wmpengine\sprite.cpp(27): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
-     1>c:\users\wmp\desktop\wmpstuff\wmpengine\sprite.cpp(28): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\wmpgl\wmpengine\sprite.cpp(25): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\wmpgl\wmpengine\sprite.cpp(26): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\wmpgl\wmpengine\sprite.cpp(27): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\wmpgl\wmpengine\sprite.cpp(28): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
          ResourceManager.cpp
          picoPNG.cpp
          IOManager.cpp
-     1>c:\users\wmp\desktop\wmpstuff\wmpengine\iomanager.cpp(19): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
-     1>c:\users\wmp\desktop\wmpstuff\wmpengine\iomanager.cpp(24): warning C4244: '-=' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>d:\wmpgl\wmpengine\iomanager.cpp(19): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>d:\wmpgl\wmpengine\iomanager.cpp(24): warning C4244: '-=' : conversion from 'std::streamoff' to 'int', possible loss of data
          InputManager.cpp
-     1>c:\users\wmp\desktop\wmpstuff\wmpengine\inputmanager.cpp(56): warning C4101: 'isPressed' : unreferenced local variable
+     1>d:\wmpgl\wmpengine\inputmanager.cpp(56): warning C4101: 'isPressed' : unreferenced local variable
          ImageLoader.cpp
          GLSLProgram.cpp
          Errors.cpp
          Camera2D.cpp
          Generating Code...
        Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\WMP\Desktop\WMPStuff\Debug\WMPEngine.lib" /NOLOGO Debug\Camera2D.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\WMPGL\Debug\WMPEngine.lib" /NOLOGO Debug\Camera2D.obj
          Debug\Errors.obj
          Debug\GLSLProgram.obj
          Debug\ImageLoader.obj
@@ -45,9 +45,9 @@
          Debug\Timing.obj
          Debug\Window.obj
          Debug\WMPEngine.obj
-         WMPEngine.vcxproj -> C:\Users\WMP\Desktop\WMPStuff\Debug\WMPEngine.lib
-     1>Done Building Project "C:\Users\WMP\Desktop\WMPStuff\WMPEngine\WMPEngine.vcxproj" (Rebuild target(s)).
+     1>LINK : fatal error LNK1104: cannot open file 'D:\WMPGL\Debug\WMPEngine.lib'
+     1>Done Building Project "D:\WMPGL\WMPEngine\WMPEngine.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:04.15
+Time Elapsed 00:00:04.94
