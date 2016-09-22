@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MySDLEngine", "MySDLEngine\MySDLEngine.vcxproj", "{86150CBB-97ED-4706-A8C2-17808344845A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{12FCCEF1-3157-41E9-B951-4F8FAA813AE4} = {12FCCEF1-3157-41E9-B951-4F8FAA813AE4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WMPEngine", "WMPEngine\WMPEngine.vcxproj", "{12FCCEF1-3157-41E9-B951-4F8FAA813AE4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZombieGame", "ZombieGame\ZombieGame.vcxproj", "{A05CACF1-0860-4739-9183-DD107920F7DA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLCheckers", "SQLCheckers\SQLCheckers.vcxproj", "{A7E64D29-82A1-4DC4-9D76-DF7C03A632D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86150CBB-97ED-4706-A8C2-17808344845A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{86150CBB-97ED-4706-A8C2-17808344845A}.Debug|Win32.Build.0 = Debug|Win32
+		{86150CBB-97ED-4706-A8C2-17808344845A}.Release|Win32.ActiveCfg = Release|Win32
+		{86150CBB-97ED-4706-A8C2-17808344845A}.Release|Win32.Build.0 = Release|Win32
+		{12FCCEF1-3157-41E9-B951-4F8FAA813AE4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{12FCCEF1-3157-41E9-B951-4F8FAA813AE4}.Debug|Win32.Build.0 = Debug|Win32
+		{12FCCEF1-3157-41E9-B951-4F8FAA813AE4}.Release|Win32.ActiveCfg = Release|Win32
+		{12FCCEF1-3157-41E9-B951-4F8FAA813AE4}.Release|Win32.Build.0 = Release|Win32
+		{A05CACF1-0860-4739-9183-DD107920F7DA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A05CACF1-0860-4739-9183-DD107920F7DA}.Debug|Win32.Build.0 = Debug|Win32
+		{A05CACF1-0860-4739-9183-DD107920F7DA}.Release|Win32.ActiveCfg = Release|Win32
+		{A05CACF1-0860-4739-9183-DD107920F7DA}.Release|Win32.Build.0 = Release|Win32
+		{A7E64D29-82A1-4DC4-9D76-DF7C03A632D1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A7E64D29-82A1-4DC4-9D76-DF7C03A632D1}.Debug|Win32.Build.0 = Debug|Win32
+		{A7E64D29-82A1-4DC4-9D76-DF7C03A632D1}.Release|Win32.ActiveCfg = Release|Win32
+		{A7E64D29-82A1-4DC4-9D76-DF7C03A632D1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
